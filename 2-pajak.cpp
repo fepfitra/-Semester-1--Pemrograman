@@ -21,6 +21,6 @@ int main(){
     total = harga*1.11;
 
     //cetak
-    cout << total;
+    cout << "Harga : " << total;
     
 }   
