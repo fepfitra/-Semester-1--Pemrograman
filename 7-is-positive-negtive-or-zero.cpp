@@ -9,7 +9,7 @@ int main(){
 
     if( n > 0){
         cout << "Positif";
-    }else if(n = 0){
+    }else if(n == 0){
         cout << "Nol";
     }else{
         cout << "Negatif";
