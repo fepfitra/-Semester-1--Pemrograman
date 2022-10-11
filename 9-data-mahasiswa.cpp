@@ -12,7 +12,8 @@ int main(){
 
     for( int i=0; i<3; i++){
         cout << "Masukkan nama " << i+1 << " : ";
-        cin >> mahasiswa[i].nama;
+        cin.ignore();
+        getline(cin, mahasiswa[i].nama);
 
         cout << "Masukkan nim " << i+1 << " : ";
         cin >> mahasiswa[i].nim;
